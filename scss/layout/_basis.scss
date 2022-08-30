@@ -1,38 +1,13 @@
 .basis-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--logo-blue-color);
     margin-right: 93px;
     padding: 24px 0;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
 }
 
-.basis-logo-another {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+.basis-logo__dark {
     color: var(--logo-black-color);
     padding: 24px 0;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
 }
 
 .basis-link {
