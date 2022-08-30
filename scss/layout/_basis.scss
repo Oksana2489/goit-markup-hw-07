@@ -11,10 +11,7 @@
 }
 
 .basis-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--team-color);
     padding-top: 32px;
@@ -50,10 +47,7 @@
 }
 
 .basis-mail {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--tete-color);
     padding-top: 32px;
@@ -69,10 +63,7 @@
 }
 
 .basis-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--tete-color);
     padding-top: 32px;
