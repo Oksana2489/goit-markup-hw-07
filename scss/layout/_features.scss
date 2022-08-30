@@ -15,10 +15,7 @@
 }
 
 .features-subject {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--team-color);
     margin-top: 0;
@@ -26,6 +23,7 @@
 }
 
 .features-text {
+    @include font(null, 14px, 1.7, 0.03em);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -41,11 +39,8 @@
 }
 
 .work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 1.17, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--team-color);
     margin-top: 0;
     margin-bottom: 50px;
@@ -68,11 +63,8 @@
 }
 
 .work-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(700, 14px, 1.14, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
 }
@@ -96,30 +88,22 @@
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 1.17, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--team-color);
     margin-bottom: 50px;
 }
 
 .team-subject {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+    @include font(500, 16px, 1.18, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--team-color);
     margin-bottom: 10px;
 }
 
 .team-text {
-    font-size: 16px;
-    line-height: 1.9;
+    @include font(null, 16px, 1.9, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--tete-color);
     margin-bottom: 16px;
 
