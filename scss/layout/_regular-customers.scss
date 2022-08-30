@@ -1,0 +1,44 @@
+.regular-customers-text {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.regular-customers-link {
+    width: 170px;
+    height: 92px;
+    border-radius: 4%;
+    border: 1px solid #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: transparent;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.regular-customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
+}
+
+.regular-soc-icon {
+    fill: #AFB1B8;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .regular-customers-link:hover &,
+    .regular-customers-link:focus & {
+        fill: var(--accent-color);
+    }
+}
