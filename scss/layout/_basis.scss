@@ -1,0 +1,152 @@
+.basis-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-blue-color);
+    margin-right: 93px;
+    padding: 24px 0;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.basis-logo-another {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--logo-black-color);
+    padding: 24px 0;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.basis-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--team-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.basis-menu-list .basis-link.current {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+    position: relative;
+}
+
+.current::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    bottom: -1px;
+}
+
+.basis-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--tete-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.basis-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--tete-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
+}
+
+.basis-menu-list {
+    display: flex;
+    gap: 50px;
+}
+
+.basis-contacts-list {
+    display: flex;
+
+}
+
+.basis-contacts-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.basis-nav {
+    display: flex;
+    margin-right: auto;
+
+}
+
+.container-flex {
+    display: flex;
+}
+
+.basis-mail,
+.basis-tel {
+    display: flex;
+    align-items: center;
+
+}
+
+.contacts-icon {
+    fill: currentColor;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
