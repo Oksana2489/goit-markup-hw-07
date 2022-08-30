@@ -13,11 +13,8 @@
 
 .portfolio-btn-all {
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
+    @include font(500, 16px, 1.6, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--team-color);
     background: #F5F4FA;
     display: inline-block;
@@ -38,11 +35,8 @@
 
 .portfolio-btn {
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
+    @include font(500, 16px, 1.6, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--white-color);
     background: var(--blue-color);
     display: inline-block;
@@ -60,19 +54,14 @@
 }
 
 .portfolio-example-subject {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include font(700, 18px, 2, 0.06em);
     text-decoration: none;
     color: var(--team-color);
     margin-bottom: 4px;
 }
 
 .portfolio-example-text {
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
+    @include font(null, 16px, 1.87, 0.03em);
     text-decoration: none;
     color: var(--tete-color);
 }
@@ -116,9 +105,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    font-size: 18px;
-    line-height: 1.55;
-    letter-spacing: 0.03em;
+    @include font(null, 18px, 1.55, 0.03em);
     padding: 63px 24px;
     color: var(--white-color);
     background: rgba(33, 150, 243, 0.9);
