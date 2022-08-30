@@ -1,11 +1,8 @@
 .btn {
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+    @include font (700, 16px, 1.87, 0.06em);
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
     color: var(--white-color);
     background: var(--blue-color);
     border-radius: 4px;
