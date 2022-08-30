@@ -1,8 +1,6 @@
 .regular-customers-text {
-    font-size: 36px;
-    line-height: 1.16;
+    @include font(null, 36px, 1.16, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
 }
