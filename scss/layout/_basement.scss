@@ -17,9 +17,7 @@
 }
 
 .basement-text {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(null, 14px, 1.7, 0.03em);
     color: var(--white-color);
     margin-bottom: 9px;
 
@@ -32,9 +30,7 @@
 }
 
 .basement-mail {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(null, 14px, 1.7, 0.03em);
     text-decoration: none;
     color: var(--basement-color);
 
@@ -47,9 +43,7 @@
 }
 
 .basement-tel {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font(null, 14px, 1.7, 0.03em);
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 
@@ -66,9 +60,7 @@
 }
 
 .basement-soc-text {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(null, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -128,10 +120,7 @@
 }
 
 .basement-wrap-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -155,6 +144,7 @@
     }
 
     &::placeholder {
+        @include font(null, 16px, 1.25, null);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25;
