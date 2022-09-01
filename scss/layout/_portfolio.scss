@@ -13,7 +13,10 @@
 
 .portfolio-btn-all {
     font-family: inherit;
-    @include font(500, 16px, 1.6, 0.03em);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--team-color);
     background: #F5F4FA;
@@ -35,7 +38,10 @@
 
 .portfolio-btn {
     font-family: inherit;
-    @include font(500, 16px, 1.6, 0.03em);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--white-color);
     background: var(--blue-color);
@@ -54,14 +60,19 @@
 }
 
 .portfolio-example-subject {
-    @include font(700, 18px, 2, 0.06em);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     text-decoration: none;
     color: var(--team-color);
     margin-bottom: 4px;
 }
 
 .portfolio-example-text {
-    @include font(null, 16px, 1.87, 0.03em);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--tete-color);
 }
