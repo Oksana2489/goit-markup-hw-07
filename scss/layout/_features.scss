@@ -1,4 +1,4 @@
-.features-all {
+.accompaniment {
     width: 270px;
     height: 120px;
     background: #F5F4FA;
@@ -9,12 +9,12 @@
     margin-bottom: 30px;
 }
 
-.features-list {
+.features__list {
     display: flex;
     gap: 30px;
 }
 
-.features-subject {
+.features__subject {
     @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--team-color);
@@ -22,12 +22,12 @@
     margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
     @include font(null, 14px, 1.7, 0.03em);
     color: var(--tete-color);
 }
 
-.features-item {
+.features__item {
     flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
@@ -35,7 +35,7 @@
     padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
     @include font(700, 36px, 1.17, 0.03em);
     text-align: center;
     color: var(--team-color);
@@ -43,11 +43,11 @@
     margin-bottom: 50px;
 }
 
-.work-item {
+.work__item {
     position: relative;
 }
 
-.work-box {
+.work__box {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -59,14 +59,14 @@
     align-items: center;
 }
 
-.work-text {
+.work__text {
     @include font(700, 14px, 1.14, 0.03em);
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
 }
 
-.work-list {
+.work__list {
     display: flex;
     gap: 30px;
 }
