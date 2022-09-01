@@ -10,7 +10,7 @@
 
 }
 
-.basis-link {
+.navigation__link {
     @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--team-color);
@@ -26,7 +26,7 @@
     }
 }
 
-.basis-menu-list .basis-link.current {
+.navigation__list .navigation__link.current {
     color: var(--accent-color);
 }
 
@@ -46,7 +46,7 @@
     bottom: -1px;
 }
 
-.basis-mail {
+.contacts__mail {
     @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--tete-color);
@@ -63,7 +63,7 @@
     }
 }
 
-.basis-tel {
+.contacts__tel {
     @include font(500, 14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--tete-color);
@@ -81,21 +81,21 @@
 
 }
 
-.basis-menu-list {
+.navigation__list {
     display: flex;
     gap: 50px;
 }
 
-.basis-contacts-list {
+.contacts__list {
     display: flex;
 
 }
 
-.basis-contacts-item:not(:last-child) {
+.contacts__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.basis-nav {
+.navigation {
     display: flex;
     margin-right: auto;
 
@@ -105,7 +105,7 @@
     display: flex;
 }
 
-.contacts-icon {
+.contacts__icon {
     fill: currentColor;
     display: flex;
     align-items: center;
