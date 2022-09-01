@@ -24,9 +24,6 @@
 
 .features-text {
     @include font(null, 14px, 1.7, 0.03em);
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--tete-color);
 }
 
@@ -102,7 +99,7 @@
 }
 
 .team-text {
-    @include font(null, 16px, 1.9, 0.03em);
+    @include font(null, 16px, 1.19, 0.03em);
     text-align: center;
     color: var(--tete-color);
     margin-bottom: 16px;
@@ -129,11 +126,13 @@
     justify-content: center;
     fill: #EEEEEE;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
             background-color: var(--accent-color);
+            fill: #EEEEEE;
         }
 }
 
