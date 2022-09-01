@@ -44,6 +44,9 @@
 
 .basement-tel {
     @include font(null, 14px, 1.7, 0.03em);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 
@@ -103,8 +106,6 @@
 
 .basement-soc-icon {
     fill: #FFFFFF;
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basement-soc {
@@ -112,7 +113,7 @@
 }
 
 .basement-input-wrap {
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .basement-wrap-flex {
@@ -145,9 +146,6 @@
 
     &::placeholder {
         @include font(null, 16px, 1.25, null);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
         color: rgba(255, 255, 255, 0.6);
     
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
