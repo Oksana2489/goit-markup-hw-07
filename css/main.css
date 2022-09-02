@@ -80,6 +80,11 @@ img {
   padding-right: 15px;
 }
 
+.flex--bas {
+  display: flex;
+  align-items: baseline;
+}
+
 .pege-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -191,6 +196,7 @@ img {
 
 .input-wrap {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .modal-form-user {
@@ -200,7 +206,6 @@ img {
   color: #757575;
   display: block;
   margin-bottom: 4px;
-  margin-top: 10px;
 }
 
 .modal-field {
@@ -220,7 +225,6 @@ img {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 30px;
 }
 .check-text span {
   width: 16px;
@@ -282,7 +286,8 @@ img {
 .modal-btn {
   display: flex;
   padding: 10px 52px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 30px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover, .modal-btn:focus {
@@ -318,14 +323,22 @@ img {
   color: var(--accent-color);
 }
 
-.basis-logo {
+.logo--light {
+  color: var(--logo-white-color);
+}
+
+.logo--dark {
+  color: var(--logo-black-color);
+  padding: 24px 0;
+}
+
+.logo--margin {
   margin-right: 93px;
   padding: 24px 0;
 }
 
-.basis-logo__dark {
-  color: var(--logo-black-color);
-  padding: 24px 0;
+.basis {
+  border-bottom: 1px solid transparent;
 }
 
 .navigation__link {
@@ -665,19 +678,10 @@ img {
   fill: var(--accent-color);
 }
 
-.container-flex-bas {
-  display: flex;
-  align-items: baseline;
-}
-
 .basement {
   background: var(--bg-hero-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.basement-logo__light {
-  color: var(--logo-white-color);
 }
 
 .basement-text {
