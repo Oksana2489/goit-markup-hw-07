@@ -11,3 +11,20 @@
         color: var(--accent-color);
     }
 }
+
+.logo--light {
+    color: var(--logo-white-color);
+
+}
+
+.logo--dark {
+    color: var(--logo-black-color);
+    padding: 24px 0;
+
+}
+
+.logo--margin {
+    margin-right: 93px;
+    padding: 24px 0;
+
+}
