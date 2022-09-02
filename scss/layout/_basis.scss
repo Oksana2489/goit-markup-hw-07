@@ -1,14 +1,10 @@
-.basis-logo {
-    margin-right: 93px;
-    padding: 24px 0;
-
+.basis{
+    border-bottom: 1px solid transparent;
 }
 
-.basis-logo__dark {
-    color: var(--logo-black-color);
-    padding: 24px 0;
 
-}
+
+
 
 .navigation__link {
     @include font(500, 14px, 1.14, 0.02em);
