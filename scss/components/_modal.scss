@@ -116,7 +116,6 @@
 
 .input-wrap {
     position: relative;
-    margin-bottom: 10px;
 }
 
 .modal-form-user {
@@ -128,8 +127,8 @@
 }
 
 .modal-field {
-     margin-bottom: 28px;
-     display: inline;
+    margin-bottom: 10px;
+    display: block;
 }
 .modal-field:last-child {
     margin-bottom: 20px;
